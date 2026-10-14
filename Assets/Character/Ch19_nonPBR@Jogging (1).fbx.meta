@@ -32,11 +32,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Jogging
-      takeName: Take 001
+      name: mixamo.com (1)
+      takeName: mixamo.com
       internalID: 1827226128182048838
       firstFrame: 0
-      lastFrame: 521
+      lastFrame: 230
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
