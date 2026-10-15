@@ -9,6 +9,7 @@ public class EnemyScript : MonoBehaviour
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
+        //navMeshAgent.updateRotation = false;
     }
 
     // Update is called once per frame
@@ -17,6 +18,7 @@ public class EnemyScript : MonoBehaviour
         if (player != null)
         {
             navMeshAgent.SetDestination(player.position);
+            transform.LookAt(player);
         }
 
     }
