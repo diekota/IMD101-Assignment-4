@@ -1,9 +1,34 @@
 fileFormatVersion: 2
-guid: b80812e330afb4d5d8fb9cba8cea9811
+guid: 28b288aedeeff44fd850ba982c01c516
 ModelImporter:
   serializedVersion: 24501
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ch19_Body
+    second: {fileID: 2100000, guid: a6a2e7380bf5e405db6dc779a7995648, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch19_1001_Diffuse
+    second: {fileID: 2800000, guid: b6189a7f22a5c4f38a19b5bf21b901cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch19_1001_Glossiness
+    second: {fileID: 2800000, guid: dcbdcbe3415b545009a1b8ee432f9914, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch19_1001_Normal
+    second: {fileID: 2800000, guid: cf917fcb62d1d47e1bdfc862da3d45dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch19_1001_Specular
+    second: {fileID: 2800000, guid: cc541f9080eb6434395b52e7ca1bceae, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -32,18 +57,18 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle
-      takeName: Take 001
+      name: mixamo.com (1)
+      takeName: mixamo.com
       internalID: 1827226128182048838
       firstFrame: 0
-      lastFrame: 521
+      lastFrame: 230
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -65,7 +90,7 @@ ModelImporter:
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
-      lastFrame: 117
+      lastFrame: 230
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
