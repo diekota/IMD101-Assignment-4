@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ThirdScene.unity
     guid: 6e1e6fc5024cb42f5b8117e3770d1754
+  - enabled: 1
+    path: Assets/Scenes/LoadingScreen.unity
+    guid: 90365390707fa48068ddb68772f8b8dc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
