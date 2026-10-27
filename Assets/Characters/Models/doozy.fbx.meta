@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 28b288aedeeff44fd850ba982c01c516
+guid: 177a170c9425a4c059993a09872316f8
 ModelImporter:
   serializedVersion: 24501
   internalIDToNameTable: []
@@ -8,27 +8,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ch19_Body
-    second: {fileID: 2100000, guid: a6a2e7380bf5e405db6dc779a7995648, type: 2}
+    second: {fileID: 2100000, guid: 5d227c18f7de049a699947bd6d1b914e, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch19_1001_Diffuse
-    second: {fileID: 2800000, guid: b6189a7f22a5c4f38a19b5bf21b901cb, type: 3}
+    second: {fileID: 2800000, guid: b5bc7d742b2a9466aa991dbc7a42b42c, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch19_1001_Glossiness
-    second: {fileID: 2800000, guid: dcbdcbe3415b545009a1b8ee432f9914, type: 3}
+    second: {fileID: 2800000, guid: bebf2901be6ae4c1d8b90ade45efc359, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch19_1001_Normal
-    second: {fileID: 2800000, guid: cf917fcb62d1d47e1bdfc862da3d45dc, type: 3}
+    second: {fileID: 2800000, guid: a343fab5c2c114fcaa2c3ca49d293ec3, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch19_1001_Specular
-    second: {fileID: 2800000, guid: cc541f9080eb6434395b52e7ca1bceae, type: 3}
+    second: {fileID: 2800000, guid: ca7d2b5e5bbbe4675b34c0666411be6e, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -47,7 +47,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
+    importConstraints: 1
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -55,65 +55,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: mixamo.com (1)
-      takeName: mixamo.com
-      internalID: 1827226128182048838
-      firstFrame: 0
-      lastFrame: 230
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: mixamo.com
-      takeName: mixamo.com
-      internalID: -203655887218126122
-      firstFrame: 0
-      lastFrame: 230
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []
